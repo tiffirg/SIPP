@@ -61,6 +61,8 @@ class Map:
     def __get_map(self):
         data_ptrs = [self.soup.width, self.soup.height, self.soup.startx,
                      self.soup.starty, self.soup.finishx, self.soup.finishy]
+        
+        print(self.soup.abcd)
 
         for data_ptr in data_ptrs:
             if data_ptr is None or data_ptr <= 0:

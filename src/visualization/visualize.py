@@ -36,10 +36,12 @@ class Map:
         ]
 
         self.path_time = int(soup.find('summary')['pathlength'])
+        # self.path_time = max([obstacle[-1][-1] for obstacle in self.obstacles])
+
+
 
         if self.path_time == 0:
             self.path = [self.start + [0.0]]
-            # self.path_time = max([obstacle[-1][-1] for obstacle in self.obstacles])
             self.path_time = 100
         else:
             self.path = [

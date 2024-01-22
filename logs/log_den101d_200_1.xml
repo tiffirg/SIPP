@@ -6854,7 +6854,7 @@
     </map>
 
     <log>
-        <summary pathlength="102" numberofsteps="1536" nodescreated="1480" searchtime="1"/>
+        <summary pathlength="103" numberofsteps="1536" nodescreated="1480" searchtime="1"/>
         <path>
             <point x="10" y="34" time="0"/>
             <point x="10" y="33" time="1"/>
@@ -6892,6 +6892,9 @@
             <point x="35" y="26" time="33"/>
             <point x="36" y="26" time="34"/>
             <point x="37" y="26" time="35"/>
+            <point x="37" y="26" time="36"/>
+            <point x="37" y="26" time="37"/>
+            <point x="37" y="26" time="38"/>
             <point x="38" y="26" time="39.0"/>
             <point x="39" y="26" time="40.0"/>
             <point x="40" y="26" time="41.0"/>
@@ -6902,6 +6905,9 @@
             <point x="45" y="26" time="46.0"/>
             <point x="46" y="26" time="47.0"/>
             <point x="47" y="26" time="48.0"/>
+            <point x="47" y="26" time="49.0"/>
+            <point x="47" y="26" time="50.0"/>
+            <point x="47" y="26" time="51.0"/>
             <point x="48" y="26" time="52.0"/>
             <point x="48" y="25" time="53.0"/>
             <point x="49" y="25" time="54.0"/>
@@ -6936,6 +6942,7 @@
             <point x="63" y="18" time="83.0"/>
             <point x="64" y="18" time="84.0"/>
             <point x="65" y="18" time="85.0"/>
+            <point x="65" y="18" time="86.0"/>
             <point x="65" y="17" time="87.0"/>
             <point x="65" y="16" time="88.0"/>
             <point x="65" y="15" time="89.0"/>

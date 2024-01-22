@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <map>
+        <width>13</width>
+        <height>7</height>
+        <startx>1</startx>
+        <starty>3</starty>
+        <finishx>13</finishx>
+        <finishy>7</finishy>
+        <grid>
+            <row>1 1 1 1 1 1 1 1 1 1 1 1 0</row>
+            <row>1 1 1 1 1 1 1 1 1 1 1 1 0</row>
+            <row>0 1 1 1 1 1 0 0 1 1 1 1 0</row>
+            <row>0 0 0 0 0 0 0 0 0 0 0 0 0</row>
+            <row>0 1 1 1 1 1 0 0 1 1 1 0 1</row>
+            <row>0 1 1 1 1 1 0 0 1 1 1 0 1</row>
+            <row>0 1 1 1 1 1 0 0 1 1 1 0 0</row>
+        </grid>
+        <dynamicobstacles>
+            <obstacle id="1">
+                <point x="1" y="5" time="0"/>
+                <point x="1" y="4" time="1"/>
+                <point x="13" y="4" time="13"/>
+                <point x="13" y="1" time="16"/>
+                <point x="13" y="1" time="100000000"/>
+            </obstacle>
+            <obstacle id="2">
+                <point x="1" y="6" time="0"/>
+                <point x="1" y="6" time="2"/>
+                <point x="1" y="4" time="4"/>
+                <point x="13" y="4" time="16"/>
+                <point x="13" y="2" time="18"/>
+                <point x="13" y="2" time="100000000"/>
+            </obstacle>
+            <obstacle id="3">
+                <point x="1" y="7" time="0"/>
+                <point x="1" y="7" time="4"/>
+                <point x="1" y="4" time="7"/>
+                <point x="13" y="4" time="19"/>
+                <point x="13" y="3" time="20"/>
+                <point x="13" y="3" time="100000000"/>
+            </obstacle>
+            <obstacle id="4">
+                <point x="8" y="3" time="0"/>
+                <point x="8" y="3" time="8"/>
+                <point x="8" y="7" time="12"/>
+                <point x="8" y="7" time="100000000"/>
+            </obstacle>
+        </dynamicobstacles>
+    </map>
+
+    <log>
+        <summary pathlength="19" numberofsteps="25" nodescreated="11" searchtime="1"/>
+        <path>
+            <point x="1" y="3" time="0"/>
+            <point x="1" y="4" time="2.0"/>
+            <point x="2" y="4" time="3.0"/>
+            <point x="3" y="4" time="4.0"/>
+            <point x="4" y="4" time="5.0"/>
+            <point x="5" y="4" time="6.0"/>
+            <point x="6" y="4" time="7.0"/>
+            <point x="7" y="4" time="8.0"/>
+            <point x="7" y="5" time="9.0"/>
+            <point x="8" y="5" time="11.0"/>
+            <point x="8" y="4" time="12.0"/>
+            <point x="9" y="4" time="13.0"/>
+            <point x="10" y="4" time="14.0"/>
+            <point x="11" y="4" time="15.0"/>
+            <point x="12" y="4" time="16.0"/>
+            <point x="12" y="5" time="17.0"/>
+            <point x="12" y="6" time="18.0"/>
+            <point x="12" y="7" time="19.0"/>
+            <point x="13" y="7" time="20.0"/>
+         </path>
+    </log>
+</root>
